@@ -1,0 +1,97 @@
+.home-container{
+  margin: 10px 40px;
+  
+}
+ .logosection{
+  display: flex;
+  margin: 30px 0px 50px 30px;
+ }
+
+.home-logo{
+  font-size: 40px;
+}
+
+.logo-header{
+  font-size: 30px;
+  margin-left: 20px;
+  
+}
+
+.home-components{
+  margin-top: 30px;
+  display: flex;
+}
+
+.todo-input{
+flex:3;
+}
+
+
+.users-names{
+  flex: 1;
+  font-weight: 700;
+}
+
+input{
+ width: 30%;
+ padding: 10px;
+ outline: none;
+}
+
+.update-new-input{
+  width: 60%;
+ padding: 10px;
+ outline: none;
+ margin-left: 10px;
+}
+.addtodo-button{
+  height: 2.1rem;
+  border: none;
+  background-color: #AA00FF;
+  cursor: pointer;
+  margin-left: 19px;
+}
+.todos-list{
+display: flex;
+flex-direction: column;
+}
+
+
+
+.todo-content{
+  border: 2px solid white;
+    display: flex;
+background-color:white; 
+box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.2);
+margin-top: 1px;
+}
+
+
+.task-name{
+  display: flex;
+  margin-left: 12px;
+  flex: 2;
+}
+.task-button{
+  width: 74px;
+  height: 30px;
+  margin-top: 12px;
+  cursor: pointer;
+  background-color:#AA00FF;
+  color: white;
+  border-radius: 8%;
+  border: none;
+ margin-right: 10px;
+ font-size: 1.3rem;
+ 
+}
+
+
+.update-form{
+margin: 20px;
+}
+
+
+.logout{
+  cursor: pointer;
+}
