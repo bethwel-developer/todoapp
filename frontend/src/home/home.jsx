@@ -25,14 +25,6 @@ setitemText()
   }}
 
 
-
-
-
-
-
-
-
-
   //function to get all todoitems from database
   useEffect(() => {
     const getItemsList = async () => {
