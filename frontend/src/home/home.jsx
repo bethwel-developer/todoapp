@@ -39,7 +39,7 @@ setitemText()
   }, [])
   
 
-//delete task
+//delete a task from the database
 
 const deleteitem = async (id) =>{
 try {
