@@ -8,7 +8,6 @@ import { todosRoute } from "../utilis/apiroutes";
 
 
 function Home () {
-
  const [itemText, setitemText] = useState ('')
 const [listItems, setlistItems]= useState([])
 const [isUpdating, setIsUpdating] = useState('');
