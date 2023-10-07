@@ -7,7 +7,6 @@ name:{
   required:true,
 },
 
-
 },
 
 {timestamps:true}
