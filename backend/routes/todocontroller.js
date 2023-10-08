@@ -24,7 +24,7 @@ router.get("/", async (req, res)=>{
 })
 
 
-//get one
+//get one specific task
 router.get("/:id", async (req, res)=>{
  try {
   const getTask = await Todos.findById(req.params.id);
