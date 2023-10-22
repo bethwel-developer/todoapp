@@ -2,7 +2,7 @@ const router = require("express").Router()
 const Todos = require("../models/todo")
 
 
-//create 
+//create task
 router.post("/", async (req, res)=>{
   try{
   const createdTask = await Todos.create(req.body)
@@ -12,7 +12,7 @@ router.post("/", async (req, res)=>{
   }
 })
 
-//get all 
+//get all tasks
 
 router.get("/", async (req, res)=>{
  try {
