@@ -4,6 +4,7 @@ const bcrypt = require ("bcrypt")
 
 //register/ create a user
 router.post("/register", async (req, res)=>{
+
   
   try {
     const {username,email,password}= req.body;
@@ -31,6 +32,7 @@ return res.json({status:true,user})
     res.status(500).json(error.msg)
   }
 })
+
 
 
 router.post("/login", async (req, res)=>{
