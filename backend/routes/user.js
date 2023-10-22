@@ -45,10 +45,8 @@ try {
 
   const validPassword= await bcrypt.compare(password, user.password);
   if(!validPassword)
-  return res.json({msg:"invalid username or password", status:false})
-  
+  return res.json({msg:"invalid username or password", status:false}) 
 return res.json({status:true, user})
-  
 } catch (error) {
   res.status(500).json(error.msg)
 }
